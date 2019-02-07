@@ -6872,20 +6872,34 @@ input, select, textarea {
 
 			.gallery.style2 article .image {
 				display: block;
-				width: 22.5rem;
+				margin-left: auto;
+				margin-right: auto;
+				width: 22.5em;
 				border-radius: 0;
 			}
 
 			.gallery.style2 article .image img {
 				object-fit: scale-down;
+				margin-left: auto;
+				margin-right: auto;
 				display: block;
-				height: 22.5rem;
+				height: 22.5em;
+				border-radius: 0;
+			}
+
+			.gallery.style2 article .image gif {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				height: 22.5em;
 				border-radius: 0;
 			}
 
 			.gallery.style2.medium article .image video {
 				object-fit: scale-down;
-				height: 22.5rem;
+				margin-left: auto;
+				margin-right: auto;
+				height: 22.5em;
 			}
 
 			.gallery.style2 article .caption {
