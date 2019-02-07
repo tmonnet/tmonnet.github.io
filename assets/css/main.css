@@ -6961,6 +6961,9 @@ input, select, textarea {
 			.gallery.style2 article .caption {
 				padding: 2rem;
 			}
+			.gallery.style2 article {
+				max-height: 80vw;
+			}
 
 		}
 
@@ -6968,6 +6971,9 @@ input, select, textarea {
 
 			.gallery.style2 article .caption {
 				padding: 2rem;
+			}
+			.gallery.style2 article {
+				max-height: 80vw;
 			}
 
 		}
