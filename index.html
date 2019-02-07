@@ -1,168 +1,607 @@
 <!DOCTYPE HTML>
 <!--
-	Multiverse by HTML5 UP
+	Story by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<!-- gallery image format : main.css line 6874-->
+
 <html>
 	<head>
 		<title>Thibaut Monnet - Game Programmer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper" class="divided">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><strong>THIBAUT MONNET</strong> Portfolio </a></h1>
-						<nav>
-							<ul>
-								<li><a href="#footer" class="icon fa-info-circle">About</a></li>
+			<!-- HOME -->
+			<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"id="home">
+				<div class="content">
+
+					<!--Titles-->
+					<h1>Thibaut Monnet</h1>
+					<p class="major">Gameplay Programmer</p>
+
+					<!--Description-->
+					<p>
+					I am a 5th year game programming student at Supinfogame Rubika from Valenciennes, France. 
+					</br>
+					I am actually looking for a 6 month internship starting july 2019 as a gameplay programmer.
+					</p>
+
+					<!--Button-->
+					<ul class="actions stacked">
+						<li><a href="#firstproject" class="button primary small fit">Projects</a></li>
+						<li><a href="#profile" class="button small fit">About me</a></li>
+					</ul>
+
+				</div>
+				<div class="image">
+					<img src="images/equinoxe/5.PNG" alt="" />
+				</div>
+			</section>
+
+			<!-- Slum77 -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>Slum77</h2>
+							<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Supinfogame RUBIKA</a>, October 2018 - Today</p>
+					</header>
+					<p>
+						Slum77 is a 2-player horror game, where players control prisoners in an underwater station</br>
+						invaded by monsters and run by a mysterious AI.</br>
+						Without any means of defense and no way to communicate with each other, they will have to</br>
+						survive the monsters and find a way out of the station, by helping each other or not.</br>
+						</br>
+						- designed and developed the game architecture</br>
+						- developed a relative sound system (sound can be covered by louder sound and therefore change monsters behavior)</br>
+						- developed the first person character controller</br>
+						- ensured the network compatibility of every script created by others</br>
+						- established Engine workflow, notably on scene management</br>
+						</br>
+						This is our final year school project, currently being made with Unreal Engine 4.
+					</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/equinoxe/5.PNG" class="image">
+							<img src="images/equinoxe/5.PNG" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
 							</ul>
-						</nav>
+						</div>
+					</article>
+					<article>
+						<a href="images/equinoxe/5.PNG" class="image">
+							<img src="images/equinoxe/5.PNG" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Equinoxe -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>Equinoxe</h2>
+							<p><a href="http://studioysinteractive.com/" target="_blank">Ys Interactive</a>, August 2018 – Sept. 2018</p>
 					</header>
 
-				<!-- Main -->
-					<div id="main">
-
-						<article class="thumb">
-							<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h2>Slum77</h2>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" /></a>
-							<h2>Equinoxe</h2>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt="" /></a>
-							<h2>BABAOO</h2>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/souslecagna.jpg" class="image"><img src="images/thumbs/souslecagna.png" alt="" /></a>
-							<h2>Sous le Cagna : Smooth Operator Edition</h2>
-							<p>A game set in World War 1 about mail censorship, choices and consequences. Inspired mostly by Reigns and Papers Please. Made in Unity in 4 days. </br>I made a modular system of events and letters based on Unity's Scriptable Objects, some shaders, and sound design.</p>
-							<p>
-								Art : Maxime Conquy, Anaïs Diquet</br>
-								Design : Loïc Bourdrel, Erwann Depaeuw</br>
-								Programming : Thibaut Monnet, David Bourel
-							</p>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/Patcher.jpg" class="image"><img src="images/thumbs/Patcher.png" alt="" /></a>
-							<h2>Patcher</h2>
-							<p>A <a href="https://www.youtube.com/watch?v=T5xpsSNHXFQ" target="_blank">musical VR project</a> made in Unity with SteamVR for 4 months. I programmed most of the VR interactions and made the music (with <a href="https://twitter.com/GFaguet" target="_blank">Guillaume</a> and <a href="https://twitter.com/ThomasLean" target="_blank">Théophile</a> !), sound design, and sound programming. This project will be released on Steam this summer.</p>
-							<p>
-								Design : Guillaume Faguet, Antoine Lechevalier, Stéphane Debank</br>
-								Programming : Benjamin Blanchard, Thibaut Monnet
-							</p>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/Diffraction.jpg" class="image"><img src="images/thumbs/Diffraction.gif" alt="" /></a>
-							<h2>Diffraction</h2>
-							<p>A personnal project I made in Unity for my 3rd year Jury. I made an Occlusion/Diffraction audio system in C#. I wrote a <a href=ressources/Diffraction.pdf target="_blank">paper</a> on this (Fr only).</p>
-						</article>
+					<p>
+						Equinox is a narrative adventure game where you play as a lycan, changing form depending of the game's day-night cycle.</br>
 						
-						<article class="thumb">
-							<a href="images/fulls/Catventures.jpg" class="image"><img src="images/thumbs/Catventures.png" alt="" /></a>
-							<h2>Catventure : a Meowtastic Tail</h2>
-							<p>A mobile RPG made in 2 weeks and published on Google Play Store in partnership with <a href="https://www.ohbibi.com/" target="_blank">OhBibi</a>. I programmed the whole game in 1 week and helped on the integration. Made in Unity.</p>
-							<p>
-								Art : <a href="https://www.linkedin.com/in/boriskolimaga/" target="_blank">Boris Kolimaga</a>, <a href="https://www.linkedin.com/in/clement-lieven/" target="_blank">Clément Lieven</a>, <a href="https://www.linkedin.com/in/lili-csonka/" target="_blank">Lili Csonka</a></br>
-								Design : <a href="https://www.linkedin.com/in/benjamin-faucher-gd/" target="_blank">Benjamin Faucher</a></br>
-							</p>
-						</article>
+						Made with UE4.</br>
+						</br>
+						What I did as a Programmer Intern :</br>
+						- interaction system</br>
+						- graphics production R&D (character & environment morphing, flowmap shader)</br>
+						- puzzle implementation</br>
+						- module creation for UE4's Niagara particles system (mesh emission, randomized uv tiling, etc)</br>
+						- water master shader</br>
+						- wind material function, based on 3D noise
+					</p>
+				</div>
 
-						<article class="thumb">
-							<a href="images/fulls/shader.gif" class="image"><img src="images/thumbs/shader.gif" alt="" /></a>
-							<h2>Shader Stuff</h2>
-							<p>A collection of different experimentals works I pursue in GLSL & CG.</p>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/Automage.jpg" class="image"><img src="images/thumbs/Automage.jpg" alt="" /></a>
-							<h2>Automage</h2>
-							<p>A prototype made in 5 days for <a href="https://www.tralalere.com/" target="_blank">Tralalère</a>. The goal was to teach programming to children in a fun way. In Automage the player has to program his character to carry out actions and defend himself against his environment.
-								Made in Unity with <a href="https://assetstore.unity.com/packages/tools/integration/jurassic-javascript-runtime-interpreter-for-unity-2345" target="_blank">Jurassic</a>.</p>
-							<p>
-								Art : Valentin Besson, Célia Idri, Guillaume Rivière</br>
-								Design : Florent Juchniewicz, Benjamin Leblanc, Guillaume Faguet</br>
-								Programming : Thibaut Monnet, Benjamin Leblanc
-							</p>
-						</article>
-
-						<article class="thumb">
-							<a href="images/fulls/Keywave.jpg" class="image"><img src="images/thumbs/Keywave.gif" alt="" /></a>
-							<h2>KeyWave</h2>
-							<p>My first game, made for the <a href="https://globalgamejam.org/2017/games/keywave" target="_blank">GGJ17</a>. I programmed the audio vizualisation, shaders and made the music.</p>
-						</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h2>Hi, I'm a game programmer.</h2>
-									<p>Currently studying at Supinfogame Rubika in Valenciennes, France. <br />I love to design complex game systems, as well as making audio wizardry and shader stuff. Most of the projects above were made with game designers and game artists students from my school.</p>
-									<p><a href="ressources/CV_EN.pdf" target="_blank">Resume</a> <br /> <a href="ressources/CV_FR.pdf" target="_blank">CV</a></p>
-								</section>
-								<section>
-									<h2>Follow me on ...</h2>
-									<ul class="icons">
-										<li><a href="https://github.com/tmonnet" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://soundcloud.com/dax60840/likes" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
-										<li><a href="https://www.linkedin.com/in/thibaut-monnet/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</section>
-								<p class="copyright">
-									Design: <a href="http://html5up.net">HTML5 UP</a>.
-								</p>
-							</div>
-							<!--
-							<div>
-								<section>
-									<h2>Get in touch</h2>
-									<form method="post" action="#">
-										<div class="field half first">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="text" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-							</div>-->
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/equinoxe/1.mp4" target="" class="image">
+							<video autoplay loop >
+								<source src="images/equinoxe/1.mp4" type="video/mp4">
+							</video>
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
 						</div>
-					</footer>
+					</article>
+					<article>
+						<a href="images/equinoxe/5.PNG" class="image">
+							<img src="images/equinoxe/5.PNG" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
 
-			</div>
+			<!-- Babaoo -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+						<header>
+								<h2>BABAOO</h2>
+								<p><a href="http://studioysinteractive.com/" target="_blank">Ys Interactive</a>, July 2018</p>
+						</header>
+	
+						<p>
+							Babaoo is a tablet game that allows children to develop cognitive abilities paired with a mobile app, that allows parents to follow and understand their kids’ progress.
+
+							I worked only on the tablet game.</br>
+							</br>
+							What I did as a Programmer Intern:</br>
+							- UI implementation</br>
+							- bug correction</br>
+							- analytics implementation</br>
+							- multithreading implementation of some parts of a proprietary tool used to synchronize user data</br>
+							- multiples CPU optimizations</br>
+						</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/equinoxe/5.PNG" class="image">
+							<img src="images/equinoxe/5.PNG" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Sous le Cagna -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>SOUS LE CAGNA : SMOOTH OPERATOR EDITION</h2>
+							<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Supinfogame RUBIKA</a>, May 2018</p>
+					</header>
+
+					<p>
+							-System Programmer-</br>
+						</br>
+							A game set in World War 1 about mail censorship, choices and consequences. </br>
+							Inspired mostly by Reigns and Papers Please. </br>
+							Made in Unity in 4 days. </br>
+						</br>
+							I made a modular system of events and letters based on Unity's Scriptable Objects, some shaders, and sound design.</br>
+					</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- PATCHER -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>PATCHER</h2>
+							<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Supinfogame RUBIKA</a>, October 2017 - February 2018</p>
+					</header>
+
+					<p>
+							-Gameplay & Audio Programmer-</br>
+						</br>
+							A musical VR project made in Unity with SteamVR for 4 months. I programmed most of the VR interactions and made the music (with Guillaume and Théophile !), sound design, and sound programming.
+
+					</p>
+
+
+
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Diffraction -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>DIFFRACTION</h2>
+							<p>Personnal project, May 2017</p>
+					</header>
+					<p>A personnal project I made in Unity for my 3rd year Jury. I made an Occlusion/Diffraction audio system in C#. I wrote a <a href=ressources/Diffraction.pdf target="_blank">paper</a> on this (Fr only).</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Catventure -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+							<h2>Catventure: A Meowtastic Tail</h2>
+							<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Supinfogame RUBIKA</a>, March 2017</p>
+					</header>
+					
+					<p>
+					-Programmer-</br>
+					</br>
+					RPG for Android made in two weeks with a team of seven students. You are an adventurous cat in a quest to defend the neighborhood of dangerous pigeons, rats and woodballs. You must choose among a large variety of hats, accessories and weapon to max out the statistics of your cat to defeat your foes.</br>
+					</br>
+					We published the game on Google Play Store in partnership with <a href="https://www.ohbibi.com/" target="_blank">OhBibi</a>. </br>
+					I programmed the whole game in 1 week and helped on graphics integration. Made in Unity.</br>
+					</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- ShaderStuff -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+						<header>
+							<h2>Shader Stuff</h2>
+							<p>Personnal project, March 2017</p>
+						</header>
+					
+						<p>
+							A collection of different experimentals works I pursue in GLSL & CG.</br>
+							I played around a lot with Unity's Shaderlab and <a href="" target="_blank">Shadertoy</a>.
+						</p>
+					</div>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Automage -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+						<h2>Automage</h2>
+						<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Supinfogame RUBIKA</a>, January 2017</p>
+					</header>
+				
+					<p>
+						-Gameplay Programmer-</br>
+						</br>
+						A prototype made in 5 days for <a href="https://www.tralalere.com/" target="_blank">Tralalère</a>. The goal was to teach programming to children in a fun way. In Automage the player has to program his character to carry out actions and defend himself against his environment.</br>
+								Made in Unity with <a href="https://assetstore.unity.com/packages/tools/integration/jurassic-javascript-runtime-interpreter-for-unity-2345" target="_blank">Jurassic</a>.</br>
+						</br>
+						I created every game script unrelated to Jurassic, I writed the whole core game loop.
+						
+					</p>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- KeyWave -->
+			<section class="wrapper style1 align-left"id="firstproject">
+				<!--Description-->
+				<div class="inner">
+					<header>
+						<h2>KeyWave</h2>
+						<p><a href="https://rubika-edu.com/formations/programme-jeu-video/" target="_blank">Global Game Jam 2017</a>, January 2017</p>
+					</header>
+				
+					<p>
+						My first game, made for the GGJ17. I programmed the audio vizualisation, shaders and made the music.
+					</p>
+					<ul class="actions">
+							<li><a href="https://globalgamejam.org/2017/games/keywave" target="_blank" class="button primary small">Entry</a></li>
+					</ul>
+				</div>
+
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Ipsum Dolor</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Feugiat Lorem</h3>
+							<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+							<ul class="actions fixed">
+								<li><span class="button small">View</span></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+			
+
+			<!-- ONE IMAGE 
+				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Magna etiam feugiat</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+						<ul class="actions stacked">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/spotlight01.jpg" alt="" />
+					</div>
+				</section>
+			-->
+			
+
+			<!-- About Me -->
+			<section class="wrapper style1 align-left" id="profile">
+				<div class="inner">
+					<h2>About me</h2>
+					
+					<p>	I love to design large and modular game systems, as well as making audio wizardry and shader stuff.
+						</br>
+						Most of the projects above were made with game designers and game artists students from my school.
+						</br></br>
+						If you are interested by any of this, don't hesitate to contact me on LinkedIn or by e-mail.
+					</p>
+
+					<ul class="actions">
+						<li><a href="ressources/CV_EN.pdf" target="_blank" class="button icon fa-download">Resume</a></li>
+						<li><a href="ressources/CV_FR.pdf" target="_blank" class="button icon fa-download">CV</a></li>
+					</ul>
+					
+
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/thibaut-monnet/" target="_blank" class="icon style1 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:t.monnet@rubika-edu.com" target="_blank" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/tmonnet" target="_blank" class="icon style1 fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://soundcloud.com/dax60840/likes" target="_blank" class="icon style1 fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+					</ul>
+
+					
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="wrapper style1 align-center">
+				<div class="inner">
+					</ul>
+					<!--
+						<p>2019 - Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					-->
+					
+					<ul class="actions">
+							<li><a href="#home" class="button primary small">Go back up!</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 	</body>
