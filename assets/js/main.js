@@ -227,7 +227,7 @@
 		// Lightbox.
 			$('.gallery.lightbox')
 				.on('click', 'a', function(event) {
-					/*
+					
 					var $a = $(this),
 						$gallery = $a.parents('.gallery'),
 						$modal = $gallery.children('.modal'),
@@ -235,7 +235,7 @@
 						href = $a.attr('href');
 
 					// Not an image? Bail.
-						if (!href.match(/\.(jpg|gif|png|mp4)$/))
+						if (!href.match(/\.(jpg|gif|png|PNG)$/))
 							return;
 
 					// Prevent default.
@@ -265,11 +265,11 @@
 								$modal[0]._locked = false;
 
 						}, 600);
-						*/
+						
 
 				})
 				.on('click', '.modal', function(event) {
-					/*
+					
 					var $modal = $(this),
 						$modalImg = $modal.find('img');
 
@@ -308,7 +308,7 @@
 							}, 475);
 
 						}, 125);
-						*/
+						
 				})
 				.on('keypress', '.modal', function(event) {
 
